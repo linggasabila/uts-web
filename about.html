@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rental Mobil - About Us</title>
+
+  <!-- Mengimpor CSS Bootstrap -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Mengimpor Font Awesome untuk ikon jika diperlukan -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+  <style>
+    /* Styling untuk navbar */
+    .navbar-custom {
+      background-color: #343a40;
+    }
+
+    .navbar-custom .navbar-brand,
+    .navbar-custom .navbar-nav .nav-link {
+      color: white;
+    }
+
+    .navbar-custom .navbar-brand:hover,
+    .navbar-custom .navbar-nav .nav-link:hover {
+      color: #ffcc00;
+    }
+
+    /* Styling untuk blok hero */
+    .hero {
+      background-image: url('img/mobil2.png');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      padding: 100px 0;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+    }
+
+    /* Styling untuk setiap section */
+    .section-title {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+      font-weight: bold;
+    }
+
+    .about-img {
+      max-width: 100%;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .cta-btn {
+      background-color: #ffcc00;
+      color: white;
+      border-radius: 50px;
+      padding: 10px 30px;
+      font-size: 1.1rem;
+      text-transform: uppercase;
+      transition: background-color 0.3s ease;
+    }
+
+    .cta-btn:hover {
+      background-color: #e6b800;
+    }
+    /* Footer Styling */
+    footer {
+      background-color: #343a40;
+      color: white;
+      padding: 30px 0;
+      text-align: center;
+    }
+
+    footer a {
+      color: #ffcc00;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-custom fixed-top">
+    <div class="container">
+      <!-- Brand Logo / Nama Perusahaan -->
+      <a class="navbar-brand" href="#">Rental Mobil</a>
+      
+      <!-- Tombol Hamburger untuk Mobile -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Konten Navbar -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="service.html">Service</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="project.html">Project</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="testimoni.html">Testimoni</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Kontak</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero text-center">
+    <div class="container">
+      <h1>Selamat Datang di Rental Mobil</h1>
+      <p>Mobil berkualitas, pelayanan terbaik untuk perjalanan Anda</p>
+      <a href="#services" class="cta-btn">Lihat Layanan Kami</a>
+    </div>
+  </section>
+
+  <!-- About Us Section -->
+  <section id="about" class="container my-5">
+    <h2 class="section-title text-center">Tentang Kami</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <p>Rental Mobil adalah penyedia layanan sewa kendaraan terpercaya, menyediakan berbagai pilihan mobil berkualitas
+          untuk kebutuhan pribadi maupun bisnis. Kami berkomitmen memberikan pengalaman berkendara yang aman, nyaman, dan
+          terjangkau.</p>
+        <p>Dengan pengalaman lebih dari 10 tahun, kami bangga menjadi salah satu penyedia layanan sewa mobil terbesar dan
+          terpercaya di kota ini.</p>
+      </div>
+      <div class="col-md-6">
+        <img src="img/mobil.png" alt="About Us" class="about-img">
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="bg-light py-5">
+    <div class="container">
+      <h2 class="section-title text-center">Layanan Kami</h2>
+      <div class="row">
+        <div class="col-md-4 text-center">
+          <i class="fas fa-car fa-3x mb-3"></i>
+          <h4>Mobil Keluarga</h4>
+          <p>Kami menyediakan kendaraan keluarga yang nyaman untuk perjalanan liburan atau acara keluarga.</p>
+        </div>
+        <div class="col-md-4 text-center">
+          <i class="fas fa-suitcase-rolling fa-3x mb-3"></i>
+          <h4>Perjalanan Bisnis</h4>
+          <p>Mobil yang tepat untuk perjalanan bisnis Anda, nyaman, efisien, dan aman.</p>
+        </div>
+        <div class="col-md-4 text-center">
+          <i class="fas fa-taxi fa-3x mb-3"></i>
+          <h4>Pengantaran dan Jemputan</h4>
+          <p>Layanan antar jemput di bandara atau lokasi pilihan Anda, selalu tepat waktu.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Benefits Section -->
+  <section id="benefits" class="container my-5">
+    <h2 class="section-title text-center">Keunggulan Kami</h2>
+    <ul>
+      <li><strong>Armada Berkualitas:</strong> Kami hanya menyewakan kendaraan yang terawat dan dalam kondisi prima.</li>
+      <li><strong>Layanan Pelanggan 24/7:</strong> Tim kami siap membantu kapan saja, di mana saja.</li>
+      <li><strong>Harga Terjangkau:</strong> Kami menawarkan harga yang bersaing tanpa mengurangi kualitas layanan.</li>
+      <li><strong>Asuransi Mobil:</strong> Semua kendaraan kami dilengkapi dengan asuransi untuk kenyamanan Anda.</li>
+    </ul>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section id="testimonials" class="bg-light py-5">
+    <div class="container">
+      <h2 class="section-title text-center">Testimoni Pelanggan</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <blockquote class="blockquote">
+            <p>"Layanan yang sangat memuaskan, mobil yang kami sewa sangat bersih dan nyaman. Proses pemesanan sangat mudah
+              dan cepat!"</p>
+            <footer class="blockquote-footer">Andi, <cite title="Source Title">Jakarta</cite></footer>
+          </blockquote>
+        </div>
+        <div class="col-md-4">
+          <blockquote class="blockquote">
+            <p>"Pelayanan ramah dan harga yang terjangkau. Kami sangat puas dengan pengalaman menyewa mobil di Rental Mobil!"</p>
+            <footer class="blockquote-footer">Dina, <cite title="Source Title">Bandung</cite></footer>
+          </blockquote>
+        </div>
+        <div class="col-md-4">
+          <blockquote class="blockquote">
+            <p>"Pengalaman sewa mobil yang luar biasa. Mobil yang kami sewa sangat baru dan terawat dengan baik. Sangat
+              direkomendasikan!"</p>
+            <footer class="blockquote-footer">Rudi, <cite title="Source Title">Surabaya</cite></footer>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="container my-5">
+    <h2 class="section-title text-center">Kontak Kami</h2>
+    <form>
+      <div class="form-group">
+        <label for="name">Nama Lengkap</label>
+        <input type="text" class="form-control" id="name" placeholder="Masukkan nama Anda">
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" class="form-control" id="email" placeholder="Masukkan email Anda">
+      </div>
+      <div class="form-group">
+        <label for="message">Pesan</label>
+        <textarea class="form-control" id="message" rows="4" placeholder="Masukkan pesan Anda"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary btn-block">Kirim Pesan</button>
+    </form>
+  </section>
+
+   <!-- Footer -->
+   <footer>
+    <p>&copy; 2024 Rental Mobil. lingga sabila047.</p>
+    <p>Follow us on <a href="#">Instagram</a>, <a href="#">Facebook</a></p>
+  </footer>
+
+
+  <!-- Mengimpor JavaScript Bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

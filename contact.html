@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontak Rental Mobil</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Font Awesome for Icons -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+  <style>
+    /* Styling untuk navbar */
+    .navbar-custom {
+      background-color: #343a40;
+    }
+
+    .navbar-custom .navbar-brand,
+    .navbar-custom .navbar-nav .nav-link {
+      color: white;
+    }
+
+    .navbar-custom .navbar-brand:hover,
+    .navbar-custom .navbar-nav .nav-link:hover {
+      color: #ffcc00;
+    }
+
+    /* Hero Section Styling */
+    .hero {
+      background-image: url('img/mobil2.png');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      padding: 100px 0;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+    }
+
+    .cta-btn {
+      background-color: #ffcc00;
+      color: white;
+      border-radius: 50px;
+      padding: 10px 30px;
+      font-size: 1.1rem;
+      text-transform: uppercase;
+      transition: background-color 0.3s ease;
+    }
+
+    .cta-btn:hover {
+      background-color: #e6b800;
+    }
+
+    /* Section Titles */
+    .section-title {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+      font-weight: bold;
+    }
+
+    .contact-item {
+      background-color: #f8f9fa;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    .contact-item i {
+      font-size: 3rem;
+      color: #ffcc00;
+    }
+
+    .contact-item h4 {
+      font-size: 1.5rem;
+      margin-top: 20px;
+    }
+
+    .contact-item p {
+      font-style: italic;
+      color: #555;
+    }
+
+    /* Footer Styling */
+    footer {
+      background-color: #343a40;
+      color: white;
+      padding: 30px 0;
+      text-align: center;
+    }
+
+    footer a {
+      color: #ffcc00;
+    }
+  </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-custom fixed-top">
+        <div class="container">
+          <!-- Brand Logo / Nama Perusahaan -->
+          <a class="navbar-brand" href="#">Rental Mobil</a>
+          
+          <!-- Tombol Hamburger untuk Mobile -->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+          <!-- Konten Navbar -->
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="service.html">Service</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="project.html">Project</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="testimoni.html">Testimoni</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Kontak</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    
+  
+  
+  <!-- Hero Section -->
+  <section id="hero" class="hero text-center">
+    <div class="container">
+      <h1>Kontak Rental Mobil</h1>
+      <p>Hubungi Kami untuk Pemesanan dan Informasi Lainnya</p>
+    </div>
+  </section>
+
+  <!-- Contact Blocks Section -->
+  <section id="contact" class="container my-5">
+    <h2 class="section-title text-center">Layanan Kami</h2>
+    <div class="row">
+      <!-- Contact Block 1: Layanan Penyewaan Mobil -->
+      <div class="col-md-4 mb-4">
+        <div class="contact-item">
+          <i class="fas fa-car"></i>
+          <h4>Layanan Penyewaan Mobil</h4>
+          <p>Kami menyediakan berbagai jenis mobil untuk berbagai keperluan, dari perjalanan bisnis hingga liburan keluarga.</p>
+        </div>
+      </div>
+
+      <!-- Contact Block 2: Pengemudi Pribadi -->
+      <div class="col-md-4 mb-4">
+        <div class="contact-item">
+          <i class="fas fa-user-tie"></i>
+          <h4>Pengemudi Pribadi</h4>
+          <p>Perlu pengemudi untuk perjalanan Anda? Kami menawarkan pengemudi berpengalaman yang siap melayani Anda.</p>
+        </div>
+      </div>
+
+      <!-- Contact Block 3: Layanan Antar Jemput -->
+      <div class="col-md-4 mb-4">
+        <div class="contact-item">
+          <i class="fas fa-shuttle-van"></i>
+          <h4>Layanan Antar Jemput</h4>
+          <p>Nikmati layanan antar jemput ke hotel atau bandara dengan mobil yang nyaman dan aman.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <!-- Contact Block 4: Sewa Mobil Jangka Panjang -->
+      <div class="col-md-4 mb-4">
+        <div class="contact-item">
+          <i class="fas fa-calendar-alt"></i>
+          <h4>Sewa Mobil Jangka Panjang</h4>
+          <p>Menawarkan paket sewa mobil jangka panjang dengan harga bersaing untuk kebutuhan perusahaan atau individu.</p>
+        </div>
+      </div>
+
+      <!-- Contact Block 5: Layanan Asuransi -->
+      <div class="col-md-4 mb-4">
+        <div class="contact-item">
+          <i class="fas fa-shield-alt"></i>
+          <h4>Layanan Asuransi</h4>
+          <p>Setiap mobil dilengkapi dengan asuransi untuk memberikan kenyamanan dan keamanan selama perjalanan Anda.</p>
+        </div>
+      </div>
+
+      <!-- Contact Block 6: Proses Pemesanan Mudah -->
+      <div class="col-md-4 mb-4">
+        <div class="contact-item">
+          <i class="fas fa-check-circle"></i>
+          <h4>Proses Pemesanan Mudah</h4>
+          <p>Proses pemesanan mudah dan cepat, baik melalui telepon, email, atau website kami. Segera sewa mobil untuk kebutuhan Anda!</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <!-- Contact Block 7: Dukungan Pelanggan 24/7 -->
+      <div class="col-md-4 mb-4">
+        <div class="contact-item">
+          <i class="fas fa-headset"></i>
+          <h4>Dukungan Pelanggan 24/7</h4>
+          <p>Kami siap membantu Anda kapan saja. Tim dukungan pelanggan kami siap memberikan solusi terbaik untuk Anda.</p>
+        </div>
+      </div>
+    </div>
+
+    <h2 class="section-title text-center my-5">Hubungi Kami</h2>
+    <form>
+      <div class="form-group">
+        <label for="name">Nama Lengkap</label>
+        <input type="text" class="form-control" id="name" placeholder="Masukkan nama Anda">
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" class="form-control" id="email" placeholder="Masukkan email Anda">
+      </div>
+      <div class="form-group">
+        <label for="message">Pesan</label>
+        <textarea class="form-control" id="message" rows="4" placeholder="Masukkan pesan Anda"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary btn-block">Kirim Pesan</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 Rental Mobil. lingga sabila047.</p>
+    <p>Follow us on <a href="#">Instagram</a>, <a href="#">Facebook</a></p>
+  </footer>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>

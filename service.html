@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rental Mobil - Layanan Kami</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Font Awesome for Icons -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+  <style>
+    /* Styling untuk navbar */
+    .navbar-custom {
+      background-color: #343a40;
+    }
+
+    .navbar-custom .navbar-brand,
+    .navbar-custom .navbar-nav .nav-link {
+      color: white;
+    }
+
+    .navbar-custom .navbar-brand:hover,
+    .navbar-custom .navbar-nav .nav-link:hover {
+      color: #ffcc00;
+    }
+
+    /* Hero Section Styling */
+    .hero {
+      background-image: url('img/mobil2.png');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      padding: 100px 0;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+    }
+
+    .cta-btn {
+      background-color: #ffcc00;
+      color: white;
+      border-radius: 50px;
+      padding: 10px 30px;
+      font-size: 1.1rem;
+      text-transform: uppercase;
+      transition: background-color 0.3s ease;
+    }
+
+    .cta-btn:hover {
+      background-color: #e6b800;
+    }
+
+    /* Section Titles */
+    .section-title {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+      font-weight: bold;
+    }
+
+    .service-item {
+      background-color: #f8f9fa;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .service-item i {
+      font-size: 3rem;
+      color: #ffcc00;
+    }
+
+    .service-item h4 {
+      font-size: 1.5rem;
+      margin-top: 20px;
+    }
+
+    /* Footer Styling */
+    footer {
+      background-color: #343a40;
+      color: white;
+      padding: 30px 0;
+      text-align: center;
+    }
+
+    footer a {
+      color: #ffcc00;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-custom fixed-top">
+    <div class="container">
+      <!-- Brand Logo / Nama Perusahaan -->
+      <a class="navbar-brand" href="#">Rental Mobil</a>
+      
+      <!-- Tombol Hamburger untuk Mobile -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Konten Navbar -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="service.html">Service</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="project.html">Project</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="testimoni.html">Testimoni</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Kontak</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero text-center">
+    <div class="container">
+      <h1>Selamat Datang di Rental Mobil</h1>
+      <p>Mobil Berkualitas dan Pelayanan Terbaik untuk Perjalanan Anda</p>
+      <a href="#services" class="cta-btn">Lihat Layanan Kami</a>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="container my-5">
+    <h2 class="section-title text-center">Layanan Kami</h2>
+    <div class="row">
+      <!-- Block 1: Mobil Keluarga -->
+      <div class="col-md-4 mb-4">
+        <div class="service-item text-center">
+          <i class="fas fa-car"></i>
+          <h4>Mobil Keluarga</h4>
+          <p>Mobil yang nyaman dan luas untuk perjalanan keluarga Anda, liburan, atau acara khusus.</p>
+        </div>
+      </div>
+      <!-- Block 2: Perjalanan Bisnis -->
+      <div class="col-md-4 mb-4">
+        <div class="service-item text-center">
+          <i class="fas fa-suitcase-rolling"></i>
+          <h4>Perjalanan Bisnis</h4>
+          <p>Kendaraan bisnis yang nyaman dan efisien untuk perjalanan Anda, dilengkapi dengan fasilitas premium.</p>
+        </div>
+      </div>
+      <!-- Block 3: Layanan Antar-Jemput -->
+      <div class="col-md-4 mb-4">
+        <div class="service-item text-center">
+          <i class="fas fa-taxi"></i>
+          <h4>Layanan Antar-Jemput</h4>
+          <p>Layanan antar dan jemput dari dan ke bandara, hotel, atau lokasi lainnya dengan tepat waktu.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Block 4: Keunggulan Kami -->
+  <section id="about" class="container my-5">
+    <h2 class="section-title text-center">Keunggulan Kami</h2>
+    <ul>
+      <li><strong>Armada Terpercaya:</strong> Mobil kami selalu dalam kondisi terbaik dan terawat dengan baik.</li>
+      <li><strong>Layanan 24/7:</strong> Tim kami siap membantu Anda kapan saja, di mana saja.</li>
+      <li><strong>Harga Terjangkau:</strong> Dapatkan harga terbaik dengan layanan premium yang Anda dapatkan.</li>
+      <li><strong>Asuransi Mobil:</strong> Semua kendaraan kami sudah dilengkapi dengan asuransi untuk memberikan kenyamanan Anda.</li>
+    </ul>
+  </section>
+
+  <!-- Block 5: Testimoni Pelanggan -->
+  <section id="testimonials" class="bg-light py-5">
+    <div class="container">
+      <h2 class="section-title text-center">Testimoni Pelanggan</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <blockquote class="blockquote">
+            <p>"Proses pemesanan yang mudah dan cepat, mobil dalam kondisi sangat baik!"</p>
+            <footer class="blockquote-footer">Andi, <cite title="Source Title">Jakarta</cite></footer>
+          </blockquote>
+        </div>
+        <div class="col-md-4">
+          <blockquote class="blockquote">
+            <p>"Layanan sangat ramah dan mobil yang kami sewa sangat nyaman!"</p>
+            <footer class="blockquote-footer">Dina, <cite title="Source Title">Bandung</cite></footer>
+          </blockquote>
+        </div>
+        <div class="col-md-4">
+          <blockquote class="blockquote">
+            <p>"Saya selalu memilih Rental Mobil untuk kebutuhan perjalanan bisnis saya. Sangat memuaskan!"</p>
+            <footer class="blockquote-footer">Rudi, <cite title="Source Title">Surabaya</cite></footer>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Block 6: Kontak Kami -->
+  <section id="contact" class="container my-5">
+    <h2 class="section-title text-center">Kontak Kami</h2>
+    <form>
+      <div class="form-group">
+        <label for="name">Nama Lengkap</label>
+        <input type="text" class="form-control" id="name" placeholder="Masukkan nama Anda">
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" class="form-control" id="email" placeholder="Masukkan email Anda">
+      </div>
+      <div class="form-group">
+        <label for="message">Pesan</label>
+        <textarea class="form-control" id="message" rows="4" placeholder="Masukkan pesan Anda"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary btn-block">Kirim Pesan</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 Rental Mobil. lingga sabila047.</p>
+    <p>Follow us on <a href="#">Instagram</a>, <a href="#">Facebook</a></p>
+  </footer>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
